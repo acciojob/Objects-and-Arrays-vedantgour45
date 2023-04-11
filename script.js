@@ -9,12 +9,10 @@ const person = {
 // is exactly same as mentioned in the problem statement
 
 let team = players;
-let team1 = ["John", "Bob", "Alice", "Poppy"];
+let team1 = [...players];
 
-const cap1 = {
-  name: "John Doe",
-  age: 80,
-};
+let cap1 = Object.assign({}, person);
+
 
 
 
