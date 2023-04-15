@@ -8,10 +8,14 @@ const person = {
 // Write your code here, make sure the name of variables 
 // is exactly same as mentioned in the problem statement
 
-let team = players;
-let team1 = [...players];
+// create a reference to the players array
+const team = players;
 
-let cap1 = Object.assign({}, person);
+// create a copy of the players array
+const team1 = players.slice();
+
+// create a copy of the person object
+const cap1 = Object.assign({}, person);
 
 
 
